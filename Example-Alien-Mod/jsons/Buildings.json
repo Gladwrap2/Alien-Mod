@@ -4,9 +4,9 @@
 		"replaces": "Circus Maximus",
 		"uniqueTo": "Aliens",
 		"cost": 480,
-		"happiness": 20,
+		"happiness": 30,
 		"culture": 50,
-		"science": 100,
+		"science": 175,
 		"maintenance": 5,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
@@ -16,11 +16,12 @@
 		"name": "Breeders",
 		"replaces": "Aqueduct",
 		"uniqueTo": "Aliens",
-		"cost": 80,
+		"cost": 50,
 		"hurryCostModifier": 160,
 		"happiness": 5,
+		"uniques": ["Worker construction increased 100%"],
 		"xpForNewUnits": 1000,
-		"uniques": ["90% of food is carried over after a new citizen is born"],
+		"uniques": ["100% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
 	}
 ]
