@@ -19,8 +19,9 @@
 		"cost": 50,
 		"hurryCostModifier": 160,
 		"happiness": 5,
+		"production": 90,
 		"uniques": ["Worker construction increased 100%"],
-		"xpForNewUnits": 1000,
+		"xpForNewUnits": 2000,
 		"uniques": ["100% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
 	}
