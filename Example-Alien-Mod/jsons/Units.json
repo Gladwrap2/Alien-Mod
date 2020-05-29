@@ -26,9 +26,9 @@
 		"range": 20,
 		"cost": 1500,
 		"hurryCostModifier": 50,
-		"obsoleteTech": "Particle Physics",
+		"requiredTech": "Particle Physics",
 		"promotions": ["Extended Range"],
-		
+		"requiredResource": "Aluminum",
 		"attackSound": "nonmetalhit"
 	}
 ]
