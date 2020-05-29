@@ -11,6 +11,7 @@
 		"cost": 500,
 		"requiredTech": "Ballistics",
 		"requiredResource": "Uranium",
+		"uniques": ["+2 Visibility Range","May withdraw before melee"],
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
