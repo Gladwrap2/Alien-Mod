@@ -14,5 +14,21 @@
 		"uniques": ["+2 Visibility Range","May withdraw before melee"],
 		"promotions": ["Logistics","Accuracy I","Blitz"],
 		"attackSound": "phasers"
+	},
+	{
+		"name": "Railgun",
+		"unitType": "Ranged",
+		"uniqueTo": "Aliens",
+		"replaces": "Anti-Tank Gun",
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 300,
+		"range": 20,
+		"cost": 1500,
+		"hurryCostModifier": 50,
+		"obsoleteTech": "Particle Physics",
+		"promotions": ["Extended Range"],
+		
+		"attackSound": "nonmetalhit"
 	}
 ]
