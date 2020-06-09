@@ -18,6 +18,7 @@
 		"uniqueTo": "Aliens",
 		"cost": 50,
 		"hurryCostModifier": 160,
+		"gold": 300,
 		"happiness": 5,
 		"production": 90,
 		"uniques": ["Worker construction increased 100%"],
