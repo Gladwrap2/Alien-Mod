@@ -30,5 +30,19 @@
 		"promotions": ["Extended Range"],
 		"requiredResource": "Aluminum",
 		"attackSound": "nonmetalhit"
-	}
-]
+	},
+	{
+		"name": "UFO",
+		"unitType": "Ranged",
+		"uniqueTo": "Aliens",
+		"movement": 4,
+		"strength": 100,
+		"rangedStrength": 120,
+		"range": 1,
+		"cost": 750,
+		"hurryCostModifier": 100,
+		"requiredTech": "Future Tech",
+                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked"]
+		"promotions": ["Sentry, Charge"],
+		"requiredResource": "Uranium",
+		"attackSound": "nonmetalhit"
