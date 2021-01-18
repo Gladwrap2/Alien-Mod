@@ -25,5 +25,16 @@
 		"xpForNewUnits": 2000,
 		"uniques": ["50% of food is carried over after a new citizen is born","Worker construction increased 200%"],
 		"requiredTech": "Engineering"
-	}
+	},
+        {
+		"name": "Orbital Shipyard",
+		"uniqueTo": "Aliens",
+		"cost": 5000,
+		"production": 100,
+		"science": 100,
+		"maintenance": 50,
+		"isNationalWonder": true,
+		"requiredBuildingInAllCities": "Shipyard",
+		"requiredTech": "Future Tech"
+         }
 ]
