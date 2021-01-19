@@ -57,10 +57,38 @@
 		"range": 2,
 		"cost": 10000,
 		"hurryCostModifier": 3000,
-                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+75% strength when embarked","Can defend itself when embarked"]
+                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+75% strength when embarked","Can defend itself when embarked","Can carry 3 aircraft"]
 		"requiredTech": "Future Tech",
 		"promotions": ["Cover I"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Proton Bomb",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 360,
+		"range": 10,
+		"cost": 6500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Uranium",
+		"hurryCostModifier": 200
+	},
+	{
+		"name": "Interceptor",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 30,
+		"range": 9,
+		"cost": 800,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminium",
+		"hurryCostModifier": 150,
+		"uniques": ["[100]% chance to intercept air attacks",
+			"Bonus vs Bomber 200%",
+			"7 tiles in every direction always visible"]
+		"attackSound": "shot"
+	}
 ]
