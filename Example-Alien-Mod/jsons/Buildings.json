@@ -45,7 +45,7 @@
 		"hurryCostModifier": 500,
 		"production": 100,
                 "requiredBuilding": "Factory",
-		"uniques": ["Enables construction of UFO"],
+		"uniques": ["Enables construction of UFO","+10% production when constructing any unit in this city"],
 		"requiredTech": "Robotics"
 	},
         {
@@ -87,7 +87,8 @@
 		"cost": 350,
 		"hurryCostModifier": 200,
                 "xpforNewUnits": 1000,
-		"uniques": ["Combat strength +10%"],
+		"isNationalWonder": true,
+		"uniques": ["+10% combat strength for units in foreign land"],
                 "requiredBuilding": "Military Academy",
 		"requiredTech": "Combined Arms"
 	},
@@ -99,5 +100,13 @@
 		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion","Enables construction of Proton Bomb"],
                 "requiredBuilding": "Factory",
 		"requiredTech": "Combustion"
-	}
+	},
+	{
+		"name": "Nanobot Factory",
+		"uniqueTo": "Aliens",
+		"cost": 700,
+		"hurryCostModifier": 100,
+		"uniques": ["+33% production when constructing buildings in this city"],
+		"requiredTech": "Nanotechnology"
+	},
 ]
