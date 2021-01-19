@@ -9,7 +9,7 @@
 		"science": 200,
 		"maintenance": 15,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
+		"requiredBuildingInAllCities": "Hypercommunication Relay",
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -44,6 +44,7 @@
 		"cost": 1000,
 		"hurryCostModifier": 500,
 		"production": 100,
+                "requiredBuilding": "Factory",
 		"uniques": ["Enables construction of UFO"],
 		"requiredTech": "Robotics"
 	},
@@ -65,6 +66,7 @@
 		"hurryCostModifier": 200,
 		"happiness": 5,
                 "culture": 20,
+                "requiredBuilding": "Factory",
 		"requiredTech": "Lasers"
 	},
 	{
@@ -75,6 +77,7 @@
 		"cityHealth": 75,
 		"hurryCostModifier": 400,
 		"uniques": ["Bombard strength +30%"],
+                "requiredBuilding": "Tactical Data Uploader",
 		"requiredTech": "Lasers"
 	},
 	{
@@ -85,6 +88,7 @@
 		"hurryCostModifier": 200,
                 "xpforNewUnits": 1000,
 		"uniques": ["Combat strength +10%"],
+                "requiredBuilding": "Military Academy",
 		"requiredTech": "Combined Arms"
 	},
 	{
@@ -93,6 +97,7 @@
 		"cost": 500,
 		"hurryCostModifier": 200,
 		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion","Enables construction of Proton Bomb"],
+                "requiredBuilding": "Factory",
 		"requiredTech": "Combustion"
 	}
 ]
