@@ -3,11 +3,11 @@
 		"name": "Holodeck",
 		"replaces": "Circus Maximus",
 		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 50,
+		"cost": 500,
+		"happiness": 20,
 		"culture": 100,
 		"science": 200,
-		"maintenance": 5,
+		"maintenance": 15,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
@@ -16,13 +16,12 @@
 		"name": "Breeders",
 		"replaces": "Aqueduct",
 		"uniqueTo": "Aliens",
-		"cost": 35,
+		"cost": 100,
 		"hurryCostModifier": 160,
-		"gold": 20,
-		"happiness": 10,
-		"production": 100,
-		"food": 50,
-		"xpForNewUnits": 2000,
+		"gold": 10,
+		"happiness": 3,
+		"production": 30,
+		"food": 20,
 		"uniques": ["50% of food is carried over after a new citizen is born","Worker construction increased 200%"],
 		"requiredTech": "Engineering"
 	},
@@ -30,11 +29,70 @@
 		"name": "Orbital Shipyard",
 		"uniqueTo": "Aliens",
 		"cost": 5000,
-		"production": 100,
+		"production": 250,
 		"science": 100,
 		"maintenance": 50,
+		"uniques": ["Enables construction of The Mothership"],
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Shipyard",
 		"requiredTech": "Future Tech"
-         }
+        },
+	{
+		"name": "Shipyard",
+		"replaces": "Spaceship Factory",
+		"uniqueTo": "Aliens",
+		"cost": 1000,
+		"hurryCostModifier": 500,
+		"production": 100,
+		"uniques": ["Enables construction of UFO"],
+		"requiredTech": "Robotics"
+	},
+        {
+		"name": "Orbital Interstellar Trade Station",
+		"uniqueTo": "Aliens",
+		"cost": 3500,
+		"maintenance": 20,
+                "gold": 200,
+		"uniques": ["+5 gold from every trade route"],
+		"isNationalWonder": true,
+		"requiredBuildingInAllCities": "Shipyard",
+		"requiredTech": "Satellites"
+        },
+	{
+		"name": "Hypercommunication Relay",
+		"uniqueTo": "Aliens",
+		"cost": 400,
+		"hurryCostModifier": 200,
+		"happiness": 5,
+                "culture": 20,
+		"requiredTech": "Lasers"
+	},
+	{
+		"name": "City-wide Defense Grid",
+		"uniqueTo": "Aliens",
+		"cost": 600,
+		"cityStrength": 10,
+		"cityHealth": 75,
+		"hurryCostModifier": 400,
+		"uniques": ["Bombard strength +30%"],
+		"requiredTech": "Lasers"
+	},
+	{
+		"name": "Tactical Data Uploader",
+		"replaces": "Armory",
+		"uniqueTo": "Aliens",
+		"cost": 350,
+		"hurryCostModifier": 200,
+                "xpforNewUnits": 1000,
+		"uniques": ["Combat strength +10%"],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Munitions Factory",
+		"uniqueTo": "Aliens",
+		"cost": 500,
+		"hurryCostModifier": 200,
+		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion","Enables construction of Proton Bomb"],
+		"requiredTech": "Combustion"
+	}
 ]
