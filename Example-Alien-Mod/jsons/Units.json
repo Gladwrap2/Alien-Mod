@@ -57,7 +57,7 @@
 		"range": 2,
 		"cost": 10000,
 		"hurryCostModifier": 3000,
-                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+]
+                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+75% strength when embarked","Can defend itself when embarked"]
 		"requiredTech": "Future Tech",
 		"promotions": ["Cover"],
 		"requiredResource": "Uranium",
