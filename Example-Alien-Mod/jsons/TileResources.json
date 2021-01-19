@@ -1,0 +1,11 @@
+[
+       	{
+		"name": "Protons",
+		"resourceType": "Strategic",
+		"revealedBy": "Atomic Theory",
+		"terrainsCanBeFoundOn": ["Ocean","Coast","Hill"],
+		"production": 2,
+		"improvement": "Proton Extractor",
+		"improvementStats": {"production": 5}
+	}
+]
