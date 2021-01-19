@@ -72,7 +72,7 @@
 		"range": 10,
 		"cost": 6500,
 		"requiredTech": "Particle Physics",
-		"requiredResource": "Uranium",
+		"requiredResource": "Protons",
 		"hurryCostModifier": 200
 	},
 	{
