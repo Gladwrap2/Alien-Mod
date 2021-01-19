@@ -43,7 +43,7 @@
 		"hurryCostModifier": 100,
 		"requiredTech": "Future Tech",
                 "uniques": ["No movement cost to embark or disembark","+1 movement when embarked"]
-		"promotions": ["Sentry, Charge"],
+		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
         },
@@ -59,7 +59,7 @@
 		"hurryCostModifier": 3000,
                 "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+75% strength when embarked","Can defend itself when embarked"]
 		"requiredTech": "Future Tech",
-		"promotions": ["Cover"],
+		"promotions": ["Cover I"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
 	},
