@@ -1,1 +1,8 @@
+[
 
+	{
+		"name": "Phosphorus Munitions",
+		"effect": "+33% vs Melee",
+		"unitTypes": ["Siege","Ranged","WaterRanged"]
+	},
+]
