@@ -36,13 +36,31 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Aliens",
 		"movement": 4,
-		"strength": 100,
+		"strength": 90,
 		"rangedStrength": 120,
 		"range": 1,
-		"cost": 750,
+		"cost": 1000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Future Tech",
                 "uniques": ["No movement cost to embark or disembark","+1 movement when embarked"]
 		"promotions": ["Sentry, Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
+        },
+	{
+		"name": "The Mothership",
+		"unitType": "Ranged",
+		"uniqueTo": "Aliens",
+		"movement": 2,
+		"strength": 200,
+		"rangedStrength": 140,
+		"range": 2,
+		"cost": 10000,
+		"hurryCostModifier": 3000,
+                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+]
+		"requiredTech": "Future Tech",
+		"promotions": ["Cover"],
+		"requiredResource": "Uranium",
+		"attackSound": "nonmetalhit"
+	},
+]
