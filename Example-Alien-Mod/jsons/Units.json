@@ -42,7 +42,7 @@
 		"cost": 5000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Mobile Tactics",
-                "uniques": ["Amphibious","Requires [Shipyard]","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%],
+                "uniques": ["Amphibious","Requires [Shipyard]","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%"],
 		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
