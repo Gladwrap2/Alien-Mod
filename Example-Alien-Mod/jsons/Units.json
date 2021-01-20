@@ -5,13 +5,13 @@
 		"uniqueTo": "Aliens",
 		"replaces": "Machine Gun",
 		"movement": 3,
-		"strength": 90,
-		"rangedStrength": 120,
-		"range": 4,
-		"cost": 500,
+		"strength": 75,
+		"rangedStrength": 110,
+		"range": 3,
+		"cost": 650,
 		"requiredTech": "Ballistics",
 		"requiredResource": "Uranium",
-		"uniques": ["+2 Visibility Range","May withdraw before melee"],
+		"uniques": ["+2 Visibility Range","May withdraw before melee 66%"],
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	},
@@ -19,7 +19,6 @@
 		"name": "Railgun",
 		"unitType": "Ranged",
 		"uniqueTo": "Aliens",
-		"replaces": "Anti-Tank Gun",
 		"movement": 2,
 		"strength": 60,
 		"rangedStrength": 250,
@@ -27,7 +26,7 @@
 		"cost": 3000,
 		"hurryCostModifier": 75,
 		"requiredTech": "Particle Physics",
-                "uniques": ["20% bonus vs city"]
+                "uniques": ["Bonus vs city 10%"]
 		"promotions": ["Indirect Fire"],
 		"requiredResource": "Aluminum",
 		"attackSound": "nonmetalhit"
@@ -40,10 +39,10 @@
 		"strength": 100,
 		"rangedStrength": 140,
 		"range": 1,
-		"cost": 2000,
+		"cost": 5000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Mobile Tactics",
-                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","Ignores terrain cost","Can pass through impassable tiles"]
+                "uniques": ["Amphibious","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee ([33]%)]
 		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
@@ -53,14 +52,14 @@
 		"unitType": "Ranged",
 		"uniqueTo": "Aliens",
 		"movement": 2,
-		"strength": 200,
+		"strength": 350,
 		"rangedStrength": 130,
 		"range": 3,
-		"cost": 10000,
-		"hurryCostModifier": 3000,
-                "uniques": ["No movement cost to embark or disembark","+1 movement when embarked","+75% strength when embarked","Can defend itself when embarked","Can carry 3 aircraft","Can only have 1 built at a time","+15% combat strength for units in a 2 tile radius"]
+		"cost": 13500,
+		"hurryCostModifier": 100,
+                "uniques": ["Amphibious","Ignores terrain cost","Defense bonus when embarked","Can carry 2 aircraft","Bonus for units in 2 tile radius 15%","Can move after attacking","Requires Orbital Shipyard","Bonus vs Melee 20%","Bonus vs Mounted 20%","Bonus vs Armor 20%","Penalty vs City 20%","Can attack submarines"]
 		"requiredTech": "Future Tech",
-		"promotions": ["Cover I"],
+		"promotions": ["Cover I","Flight Deck I"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
 	},
@@ -69,7 +68,7 @@
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 300,
-		"rangedStrength": 360,
+		"rangedStrength": 380,
 		"range": 10,
 		"cost": 6500,
 		"requiredTech": "Particle Physics",
@@ -88,8 +87,39 @@
 		"requiredResource": "Aluminium",
 		"hurryCostModifier": 150,
 		"uniques": ["[100]% chance to intercept air attacks",
-			"Bonus vs Bomber 200%",
+			"Bonus vs Bomber 200%","Bonus vs Fighter 100%",
 			"7 tiles in every direction always visible"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Attack Craft",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 90,
+		"rangedStrength": 75,
+		"range": 11,
+		"cost": 2000,
+		"requiredTech": "Radar",
+		"requiredResource": "Aluminium",
+		"hurryCostModifier": 150,
+		"uniques": ["[33]% chance to intercept air attacks",
+			"Bonus vs Bomber 100%",
+			"7 tiles in every direction always visible"]
+		"attackSound": "shot"
+	},
+	{
+		"name": "Seraph Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 110,
+		"rangedStrength": 70,
+		"range": 10,
+		"cost": 3000,
+		"requiredTech": "Radar",
+		"requiredResource": "Aluminium",
+		"hurryCostModifier": 150,
+		"uniques": [
+			"Bonus vs City 200%","7 tiles in every direction always visible"]
 		"attackSound": "shot"
 	}
 ]
