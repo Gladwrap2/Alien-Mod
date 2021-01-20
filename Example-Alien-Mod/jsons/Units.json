@@ -26,7 +26,7 @@
 		"cost": 3000,
 		"hurryCostModifier": 75,
 		"requiredTech": "Particle Physics",
-                "uniques": ["Bonus vs city 10%"]
+                "uniques": ["Bonus vs City 10%"]
 		"promotions": ["Indirect Fire"],
 		"requiredResource": "Aluminum",
 		"attackSound": "nonmetalhit"
@@ -42,7 +42,7 @@
 		"cost": 5000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Mobile Tactics",
-                "uniques": ["Amphibious","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee ([33]%)]
+                "uniques": ["Amphibious","Requires Shipyard","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee ([33]%)]
 		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
@@ -71,6 +71,7 @@
 		"rangedStrength": 380,
 		"range": 10,
 		"cost": 6500,
+                "uniques": ["Requires Munitions Factory"]
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Protons",
 		"hurryCostModifier": 200
