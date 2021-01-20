@@ -26,7 +26,7 @@
 		"cost": 3000,
 		"hurryCostModifier": 75,
 		"requiredTech": "Particle Physics",
-                "uniques": ["Bonus vs City [10]%"]
+                "uniques": ["Bonus vs City [10]%"],
 		"promotions": ["Indirect Fire"],
 		"requiredResource": "Aluminum",
 		"attackSound": "nonmetalhit"
@@ -42,7 +42,7 @@
 		"cost": 5000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Mobile Tactics",
-                "uniques": ["Amphibious","Requires Shipyard","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%]
+                "uniques": ["Amphibious","Requires Shipyard","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%],
 		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
@@ -57,7 +57,7 @@
 		"range": 3,
 		"cost": 13500,
 		"hurryCostModifier": 100,
-                "uniques": ["Amphibious","Ignores terrain cost","Defense bonus when embarked","Can carry 2 aircraft","Bonus for units in 2 tile radius [15]%","Can move after attacking","Requires Orbital Shipyard","Bonus vs Melee [20]%","Bonus vs Mounted [20]%","Bonus vs Armor [20]%","Penalty vs City [20]%","Can attack submarines"]
+                "uniques": ["Amphibious","Ignores terrain cost","Defense bonus when embarked","Can carry 2 aircraft","Bonus for units in 2 tile radius [15]%","Can move after attacking","Requires Orbital Shipyard","Bonus vs Melee [20]%","Bonus vs Mounted [20]%","Bonus vs Armor [20]%","Penalty vs City [20]%","Can attack submarines"],
 		"requiredTech": "Future Tech",
 		"promotions": ["Cover I","Flight Deck I"],
 		"requiredResource": "Uranium",
@@ -71,7 +71,7 @@
 		"rangedStrength": 380,
 		"range": 10,
 		"cost": 6500,
-                "uniques": ["Requires Munitions Factory"]
+                "uniques": ["Requires Munitions Factory"],
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Protons",
 		"hurryCostModifier": 200
@@ -89,7 +89,7 @@
 		"hurryCostModifier": 150,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"Bonus vs Bomber [200]%","Bonus vs Fighter [100]%",
-			"7 tiles in every direction always visible"]
+			"7 tiles in every direction always visible"],
 		"attackSound": "shot"
 	},
 	{
@@ -105,7 +105,7 @@
 		"hurryCostModifier": 150,
 		"uniques": ["[33]% chance to intercept air attacks",
 			"Bonus vs Bomber [100]%",
-			"7 tiles in every direction always visible"]
+			"7 tiles in every direction always visible"],
 		"attackSound": "shot"
 	},
 	{
@@ -120,7 +120,7 @@
 		"requiredResource": "Aluminium",
 		"hurryCostModifier": 150,
 		"uniques": [
-			"Bonus vs City [200]%","7 tiles in every direction always visible"]
+			"Bonus vs City [200]%","7 tiles in every direction always visible"],
 		"attackSound": "shot"
 	}
 ]
