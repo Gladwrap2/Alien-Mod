@@ -32,7 +32,7 @@
 		"production": 250,
 		"science": 100,
 		"maintenance": 50,
-                "uniques": ["Requires [Space Elevator Platform Completion]"]
+                "uniques": ["Requires [Space Elevator Platform Completion]"],
 		"isNationalWonder": true,
 		"requiredTech": "Future Tech"
         },
@@ -104,7 +104,7 @@
 		"uniqueTo": "Aliens",
 		"cost": 5000,
 		"hurryCostModifier": 100,
-		"uniques": ["+33% production when constructing [melee] units in this city"]
+		"uniques": ["+[33]% production when constructing [melee] units in this city"],
                 "requiredBuilding": "Factory",
 		"requiredTech": "Nanotechnology"
 	},
@@ -125,7 +125,7 @@
 		"science": 80,
 		"maintenance": 10,
 		"isNationalWonder": true,
-                "uniques": ["Reach for the ş̸̬̼̼̞̥̞̓̍͐̾́̄͜t̶̠̺̂̒̐͜ą̴̨͖̞͙̈́̉̆͒̓r̸̦̺͔̐̒s̷̰̣̤͕̀͂"]
+                "uniques": ["Reach for the ş̸̬̼̼̞̥̞̓̍͐̾́̄͜t̶̠̺̂̒̐͜ą̴̨͖̞͙̈́̉̆͒̓r̸̦̺͔̐̒s̷̰̣̤͕̀͂"],
 		"requiredBuildingInAllCities": "Shipyard",
 		"requiredTech": "Satellites"
         },
@@ -135,7 +135,7 @@
 		"cost": 7000,
 		"science": 20,
 		"maintenance": 3,
-                "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city]
+                "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city],
 		"requiredTech": "Satellites"
         },
         {
@@ -144,7 +144,7 @@
 		"cost": 3500,
 		"production": 20,
 		"maintenance": 3,
-                "uniques": ["Requires a [Space Elevator Platform Foundation] in this city"]
+                "uniques": ["Requires a [Space Elevator Platform Foundation] in this city"],
 		"requiredTech": "Satellites"
         },
         {
@@ -154,7 +154,7 @@
 		"gold": 33,
                 "culture": 75
 		"maintenance": 4,
-                "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"]
+                "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"],
 		"requiredTech": "Satellites"
         }
 ]
