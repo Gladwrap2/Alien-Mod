@@ -135,7 +135,7 @@
 		"cost": 7000,
 		"science": 20,
 		"maintenance": 3,
-                "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city],
+                "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city"],
 		"requiredTech": "Satellites"
         },
         {
