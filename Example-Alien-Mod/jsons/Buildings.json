@@ -152,7 +152,7 @@
 		"uniqueTo": "Aliens",
 		"cost": 10000,
 		"gold": 33,
-                "culture": 75
+                "culture": 75,
 		"maintenance": 4,
                 "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"],
 		"requiredTech": "Satellites"
