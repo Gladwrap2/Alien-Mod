@@ -3,7 +3,7 @@
 		"name": "Holodeck",
 		"replaces": "Circus Maximus",
 		"uniqueTo": "Aliens",
-		"cost": 500,
+		"cost": 3500,
 		"happiness": 20,
 		"culture": 100,
 		"science": 200,
@@ -16,7 +16,7 @@
 		"name": "Breeders",
 		"replaces": "Aqueduct",
 		"uniqueTo": "Aliens",
-		"cost": 100,
+		"cost": 1000,
 		"hurryCostModifier": 160,
 		"gold": 10,
 		"happiness": 3,
@@ -28,41 +28,39 @@
         {
 		"name": "Orbital Shipyard",
 		"uniqueTo": "Aliens",
-		"cost": 5000,
+		"cost": 20000,
 		"production": 250,
 		"science": 100,
 		"maintenance": 50,
-		"uniques": ["Enables construction of The Mothership"],
+                "uniques": ["Requires [Space Elevator Platform Completion]"]
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Shipyard",
 		"requiredTech": "Future Tech"
         },
 	{
 		"name": "Shipyard",
 		"replaces": "Spaceship Factory",
 		"uniqueTo": "Aliens",
-		"cost": 1000,
+		"cost": 4500,
 		"hurryCostModifier": 500,
 		"production": 100,
                 "requiredBuilding": "Factory",
-		"uniques": ["Enables construction of UFO","+10% production when constructing any unit in this city"],
+		"uniques": ["+10% production when constructing [air] units in this city"],
 		"requiredTech": "Robotics"
 	},
         {
 		"name": "Orbital Interstellar Trade Station",
 		"uniqueTo": "Aliens",
-		"cost": 3500,
+		"cost": 17500,
 		"maintenance": 20,
                 "gold": 200,
-		"uniques": ["+5 gold from every trade route"],
+		"uniques": ["gold from all trade routes +[15]%","Requires [Space Elevator Platform Completion]"],
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Shipyard",
-		"requiredTech": "Satellites"
+		"requiredTech": "Nanotechnology"
         },
 	{
 		"name": "Hypercommunication Relay",
 		"uniqueTo": "Aliens",
-		"cost": 400,
+		"cost": 6000,
 		"hurryCostModifier": 200,
 		"happiness": 5,
                 "culture": 20,
@@ -72,11 +70,11 @@
 	{
 		"name": "City-wide Defense Grid",
 		"uniqueTo": "Aliens",
-		"cost": 600,
+		"cost": 4500,
 		"cityStrength": 10,
 		"cityHealth": 75,
 		"hurryCostModifier": 400,
-		"uniques": ["Bombard strength +30%"],
+		"uniques": ["Bombard strength +[30]%"],
                 "requiredBuilding": "Tactical Data Uploader",
 		"requiredTech": "Lasers"
 	},
@@ -84,7 +82,7 @@
 		"name": "Tactical Data Uploader",
 		"replaces": "Armory",
 		"uniqueTo": "Aliens",
-		"cost": 350,
+		"cost": 3750,
 		"hurryCostModifier": 200,
                 "xpforNewUnits": 1000,
 		"isNationalWonder": true,
@@ -95,18 +93,68 @@
 	{
 		"name": "Munitions Factory",
 		"uniqueTo": "Aliens",
-		"cost": 500,
+		"cost": 4000,
 		"hurryCostModifier": 200,
-		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion","Enables construction of Proton Bomb"],
+		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion"],
                 "requiredBuilding": "Factory",
 		"requiredTech": "Combustion"
 	},
 	{
 		"name": "Nanobot Factory",
 		"uniqueTo": "Aliens",
-		"cost": 700,
+		"cost": 5000,
 		"hurryCostModifier": 100,
-		"uniques": ["+33% production when constructing buildings in this city"],
+		"uniques": ["+33% production when constructing [melee] units in this city"]
+                "requiredBuilding": "Factory",
 		"requiredTech": "Nanotechnology"
 	},
+	{
+		"name": "Naval Shipyard",
+		"uniqueTo": "Aliens",
+		"cost": 5500,
+                "production": 75,
+		"hurryCostModifier": 100,
+		"uniques": ["+[33]% production when constructing [water] units in this city"],
+                "requiredBuilding": "Factory",
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Space Elevator",
+		"uniqueTo": "Aliens",
+		"cost": 13000,
+		"science": 80,
+		"maintenance": 10,
+		"isNationalWonder": true,
+                "uniques": ["Reach for the ş̸̬̼̼̞̥̞̓̍͐̾́̄͜t̶̠̺̂̒̐͜ą̴̨͖̞͙̈́̉̆͒̓r̸̦̺͔̐̒s̷̰̣̤͕̀͂"]
+		"requiredBuildingInAllCities": "Shipyard",
+		"requiredTech": "Satellites"
+        },
+        {
+		"name": "Space Elevator Platform Foundation",
+		"uniqueTo": "Aliens",
+		"cost": 7000,
+		"science": 20,
+		"maintenance": 3,
+                "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city]
+		"requiredTech": "Satellites"
+        },
+        {
+		"name": "Space Elevator Platform Cargo Bays",
+		"uniqueTo": "Aliens",
+		"cost": 3500,
+		"production": 20,
+		"maintenance": 3,
+                "uniques": ["Requires a [Space Elevator Platform Foundation] in this city"]
+		"requiredTech": "Satellites"
+        },
+        {
+		"name": "Space Elevator Platform Completion",
+		"uniqueTo": "Aliens",
+		"cost": 10000,
+		"gold": 33,
+                "culture": 75
+		"maintenance": 4,
+                "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"]
+		"requiredTech": "Satellites"
+        }
 ]
