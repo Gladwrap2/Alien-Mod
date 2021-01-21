@@ -5,7 +5,8 @@
 		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Ocean","Coast","Hill"],
 		"production": 2,
+                "science": 2,
 		"improvement": "Proton Extractor",
-		"improvementStats": {"production": 5}
+		"improvementStats": {"production": 5, "science": 5}
 	}
 ]
