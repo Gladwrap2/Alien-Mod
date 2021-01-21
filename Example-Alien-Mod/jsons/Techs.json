@@ -11,6 +11,12 @@
 				"row": 6,
 				"prerequisites": ["Robotics","Satellites"],
 				"quote": "'With this new tech we can now build things that were once simply dreams' - Random alien on the street"
+			},
+			{
+				"name": "Zero Gravity Construction",
+				"row": 5,
+				"prerequisites": ["Robotics","Satellites"],
+				"quote": "'With this new tech we can now build even more things that were once simply dreams' - another random alien on the street"
 			}
 		]
 	}
