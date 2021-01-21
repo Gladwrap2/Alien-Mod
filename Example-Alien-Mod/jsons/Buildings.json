@@ -28,7 +28,7 @@
         {
 		"name": "Orbital Shipyard",
 		"uniqueTo": "Aliens",
-		"cost": 20000,
+		"cost": 25000,
 		"production": 250,
 		"science": 100,
 		"maintenance": 50,
