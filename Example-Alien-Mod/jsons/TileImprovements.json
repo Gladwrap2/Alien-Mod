@@ -1,7 +1,7 @@
 [
        	{
 		"name": "Proton Extractor",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean","Hill"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"science": 2,
 		"techRequired": "Atomic Theory",
 		"improvingTech": "Particle Physics",
