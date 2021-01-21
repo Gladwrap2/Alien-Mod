@@ -86,7 +86,7 @@
 		"hurryCostModifier": 200,
                 "xpforNewUnits": 1000,
 		"isNationalWonder": true,
-		"uniques": ["+[15]% Combat Strength for units in [Foreign Land]"],
+		"uniques": ["All newly-trained [Melee] units in this city receive the [Foreign Bonus] promotion"],
                 "requiredBuilding": "Military Academy",
 		"requiredTech": "Combined Arms"
 	},
