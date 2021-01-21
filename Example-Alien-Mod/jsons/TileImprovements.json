@@ -1,10 +1,7 @@
 [
        	{
 		"name": "Proton Extractor",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"science": 2,
+		"turnsToBuild": 9,
 		"techRequired": "Atomic Theory",
-		"improvingTech": "Particle Physics",
-		"improvingTechStats": {"science": 5}
 	}
 ]
