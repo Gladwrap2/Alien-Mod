@@ -167,5 +167,14 @@
                 "requiredResource": "Iron",
 		"uniques": ["Provides 2 Proton"],
 		"requiredTech": "Particle Physics"
+	},
+	{
+		"name": "Food Factory",
+		"uniqueTo": "Aliens",
+		"cost": 4500,
+		"hurryCostModifier": 50,
+		"requiredResource": "Horses",
+		"uniques": ["Provides 20 food"],
+		"requiredTech": "Ecology"
 	}
 ]
