@@ -21,7 +21,7 @@
 		"uniqueTo": "Aliens",
 		"movement": 2,
 		"strength": 60,
-		"rangedStrength": 250,
+		"rangedStrength": 180,
 		"range": 20,
 		"cost": 3000,
 		"hurryCostModifier": 75,
@@ -122,5 +122,31 @@
 		"uniques": [
 			"Bonus vs City 200%","7 tiles in every direction always visible"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Soldiers of the Future",
+		"unitType": "Melee",
+		"uniqueTo": "Aliens",
+		"replaces": "Infantry",
+		"movement": 3,
+		"strength": 85,
+		"cost": 600,
+		"requiredTech": "Plastics",
+		"uniques": ["+1 Visibility Range","Bonus vs Ranged 25%"],
+		"promotions": ["Cover I","March","Quick Study","Woodsman"],
+		"attackSound": "nonMetalHit"
+	},
+	{
+		"name": "Q'zuien Type2",
+		"unitType": "Armor",
+		"uniqueTo": "Aliens",
+		"replaces": "Modern Armor",
+		"movement": 6,
+		"strength": 110,
+		"cost": 2000,
+		"requiredTech": "Lasers",
+		"uniques": ["+1 Visibility Range","Bonus vs Mounted 33%","Bonus vs Melee 33%"],
+		"promotions": ["Drill I","Drill II","March"],
+		"attackSound": "nonMetalHit"
 	}
 ]
