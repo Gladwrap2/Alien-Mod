@@ -22,7 +22,7 @@
 		"happiness": 3,
 		"production": 30,
 		"food": 20,
-		"uniques": ["50% of food is carried over after a new citizen is born","Worker construction increased 200%"],
+		"uniques": ["[50]% of food is carried over after a new citizen is born","Worker construction increased [200]%"],
 		"requiredTech": "Engineering"
 	},
         {
@@ -44,7 +44,7 @@
 		"hurryCostModifier": 500,
 		"production": 100,
                 "requiredBuilding": "Factory",
-		"uniques": ["+10% production when constructing [air] units in this city"],
+		"uniques": ["+[10]% production when constructing [air] units in this city"],
 		"requiredTech": "Robotics"
 	},
         {
@@ -71,10 +71,10 @@
 		"name": "City-wide Defense Grid",
 		"uniqueTo": "Aliens",
 		"cost": 4500,
-		"cityStrength": 10,
-		"cityHealth": 75,
+		"cityStrength": 30,
+		"cityHealth": 100,
 		"hurryCostModifier": 400,
-		"uniques": ["Bombard strength +[30]%"],
+		"uniques": ["+[20]% combat bonus for units fighting in [Friendly Land]"],
                 "requiredBuilding": "Tactical Data Uploader",
 		"requiredTech": "Lasers"
 	},
@@ -86,7 +86,7 @@
 		"hurryCostModifier": 200,
                 "xpforNewUnits": 1000,
 		"isNationalWonder": true,
-		"uniques": ["+10% combat strength for units in foreign land"],
+		"uniques": ["+[15]% Combat Strength for units in [Foreign Land]"],
                 "requiredBuilding": "Military Academy",
 		"requiredTech": "Combined Arms"
 	},
@@ -95,7 +95,7 @@
 		"uniqueTo": "Aliens",
 		"cost": 4000,
 		"hurryCostModifier": 200,
-		"uniques": ["All newly trained units in this city gain the Phosphorus Munitions promotion"],
+		"uniques": ["All newly trained units in this city gain the [Phosphorus Munitions] promotion"],
                 "requiredBuilding": "Factory",
 		"requiredTech": "Combustion"
 	},
@@ -114,7 +114,7 @@
 		"cost": 5500,
                 "production": 75,
 		"hurryCostModifier": 100,
-		"uniques": ["+[33]% production when constructing [water] units in this city"],
+		"uniques": ["+[33]% production when constructing [water] units in this city","Must be next to [Coast]"],
                 "requiredBuilding": "Factory",
 		"requiredTech": "Electronics"
 	},
@@ -132,28 +132,29 @@
         {
 		"name": "Space Elevator Platform Foundation",
 		"uniqueTo": "Aliens",
-		"cost": 7000,
+		"cost": 10000,
 		"science": 20,
-		"maintenance": 3,
+		"maintenance": 33,
                 "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city"],
 		"requiredTech": "Satellites"
         },
         {
 		"name": "Space Elevator Platform Cargo Bays",
 		"uniqueTo": "Aliens",
-		"cost": 3500,
-		"production": 20,
-		"maintenance": 3,
+		"cost": 7000,
+		"production": 50,
+		"maintenance": 33,
                 "uniques": ["Requires a [Space Elevator Platform Foundation] in this city"],
 		"requiredTech": "Satellites"
         },
         {
 		"name": "Space Elevator Platform Completion",
 		"uniqueTo": "Aliens",
-		"cost": 10000,
-		"gold": 33,
-                "culture": 75,
-		"maintenance": 4,
+		"cost": 13500,
+		"gold": 50,
+                "culture": 100,
+		"maintenance": 34,
+		"isNationalWonder": true,
                 "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"],
 		"requiredTech": "Satellites"
         }
