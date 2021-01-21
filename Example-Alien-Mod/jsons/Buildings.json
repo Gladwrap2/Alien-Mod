@@ -157,5 +157,15 @@
 		"isNationalWonder": true,
                 "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"],
 		"requiredTech": "Antigravity Engineering"
-        }
+        },
+	{
+		"name": "Iron Transmuter",
+		"uniqueTo": "Aliens",
+		"cost": 4000,
+                "production": 50,
+		"hurryCostModifier": 60,
+                "requiredResource": "Iron",
+		"uniques": ["Provides 2 Proton"],
+		"requiredTech": "Particle Physics"
+	}
 ]
