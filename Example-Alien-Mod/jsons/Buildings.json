@@ -55,7 +55,7 @@
                 "gold": 200,
 		"uniques": ["gold from all trade routes +[15]%","Requires [Space Elevator Platform Completion]"],
 		"isNationalWonder": true,
-		"requiredTech": "Nanotechnology"
+		"requiredTech": "Zero Gravity Construction"
         },
 	{
 		"name": "Hypercommunication Relay",
@@ -127,7 +127,7 @@
 		"isNationalWonder": true,
                 "uniques": ["Reach for the ş̸̬̼̼̞̥̞̓̍͐̾́̄͜t̶̠̺̂̒̐͜ą̴̨͖̞͙̈́̉̆͒̓r̸̦̺͔̐̒s̷̰̣̤͕̀͂"],
 		"requiredBuildingInAllCities": "Shipyard",
-		"requiredTech": "Satellites"
+		"requiredTech": "Antigravity Engineering"
         },
         {
 		"name": "Space Elevator Platform Foundation",
@@ -136,7 +136,7 @@
 		"science": 20,
 		"maintenance": 33,
                 "uniques": ["8 tiles in every direction always visible","Requires a [Space Elevator] in this city"],
-		"requiredTech": "Satellites"
+		"requiredTech": "Antigravity Engineering"
         },
         {
 		"name": "Space Elevator Platform Cargo Bays",
@@ -145,7 +145,7 @@
 		"production": 50,
 		"maintenance": 33,
                 "uniques": ["Requires a [Space Elevator Platform Foundation] in this city"],
-		"requiredTech": "Satellites"
+		"requiredTech": "Antigravity Engineering"
         },
         {
 		"name": "Space Elevator Platform Completion",
@@ -156,6 +156,6 @@
 		"maintenance": 34,
 		"isNationalWonder": true,
                 "uniques": ["Requires a [Space Elevator Platform Cargo Bays] in this city"],
-		"requiredTech": "Satellites"
+		"requiredTech": "Antigravity Engineering"
         }
 ]
