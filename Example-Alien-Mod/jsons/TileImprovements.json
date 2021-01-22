@@ -1,7 +1,7 @@
 [
        	{
 		"name": "Proton Extractor",
-		"turnsToBuild": 9,
+		"turnsToBuild": 6,
 		"techRequired": "Atomic Theory",
 	}
 ]
