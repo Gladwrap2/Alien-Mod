@@ -42,7 +42,7 @@
 		"cost": 5000,
 		"hurryCostModifier": 100,
 		"requiredTech": "Mobile Tactics",
-                "uniques": ["Amphibious","Requires [Shipyard]","Ignores terrain cost","Can pass through impassable tiles","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%"],
+                "uniques": ["Amphibious","Defense bonus when embarked","Requires [Shipyard]","Ignores terrain cost","Can pass through impassable tiles","Can attack submarines","Can move immediately once bought","Can move after attacking","May withdraw before melee [33]%","Heals [50] damage if it kills an Unit","Bonus as Attacker [33]%"],
 		"promotions": ["Sentry","Charge"],
 		"requiredResource": "Uranium",
 		"attackSound": "nonmetalhit"
@@ -57,7 +57,7 @@
 		"range": 3,
 		"cost": 13500,
 		"hurryCostModifier": 100,
-                "uniques": ["Amphibious","Ignores terrain cost","Defense bonus when embarked","Can carry 2 aircraft","Bonus for units in 2 tile radius [15]%","Can move after attacking","Requires [Orbital Shipyard]","Bonus vs Melee [20]%","Bonus vs Mounted [20]%","Bonus vs Armor [20]%","Penalty vs City [20]%","Can attack submarines"],
+                "uniques": ["Amphibious","Ignores terrain cost","Defense bonus when embarked","Can carry 2 aircraft","Bonus for units in 2 tile radius 15%","Can move after attacking","Requires [Orbital Shipyard]","Bonus vs Melee [20]%","Bonus vs Mounted [20]%","Bonus vs Armor [20]%","Penalty vs City [20]%","Can attack submarines","Heals [15] damage if it kills an Unit","Bonus as Attacker [33]%"],
 		"requiredTech": "Future Tech",
 		"promotions": ["Cover I","Flight Deck I"],
 		"requiredResource": "Uranium",
@@ -145,7 +145,7 @@
 		"strength": 110,
 		"cost": 2000,
 		"requiredTech": "Lasers",
-		"uniques": ["+1 Visibility Range","Bonus vs Mounted 33%","Bonus vs Melee 33%"],
+		"uniques": ["+1 Visibility Range","Bonus vs Mounted 33%","Bonus vs Melee 33%","Can move after attacking"],
 		"promotions": ["Drill I","Drill II","March"],
 		"attackSound": "nonMetalHit"
 	}
