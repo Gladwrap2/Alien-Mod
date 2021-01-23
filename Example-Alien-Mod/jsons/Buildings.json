@@ -165,7 +165,7 @@
                 "production": 50,
 		"hurryCostModifier": 60,
                 "requiredResource": "Iron",
-		"uniques": ["Provides 2 Proton"],
+		"uniques": ["Provides 2 Protons"],
 		"requiredTech": "Particle Physics"
 	},
 	{
