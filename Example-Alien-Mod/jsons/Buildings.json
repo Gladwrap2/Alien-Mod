@@ -176,5 +176,17 @@
 		"requiredResource": "Horses",
 		"uniques": ["Provides 20 food"],
 		"requiredTech": "Ecology"
-	}
+	},
+	{
+		"name": "Naval Movement Coordination Satellite",
+		"replaces": "Armory",
+		"uniqueTo": "Aliens",
+		"cost": 3750,
+		"hurryCostModifier": 200,
+                "xpforNewUnits": 1000,
+		"isNationalWonder": true,
+		"uniques": ["All military naval units receive +1 movement and +1 sight"],
+                "requiredBuilding": "Military Academy",
+		"requiredTech": "Satellites"
+	},
 ]
