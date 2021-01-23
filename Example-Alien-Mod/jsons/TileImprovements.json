@@ -1,4 +1,5 @@
 [
+        // RESOURCE SPECIFIC
        	{
 		"name": "Proton Extractor",
 		"turnsToBuild": 6,
