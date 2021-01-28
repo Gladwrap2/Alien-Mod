@@ -5,4 +5,14 @@
 		"effect": "Bonus vs Melee 33%",
 		"unitTypes": ["Siege","Ranged","WaterRanged"]
 	},
+	{
+		"name": "Hull Down",
+		"uniques": ["+[15]% Strength when defending"],
+		"unitTypes": ["Armor"]
+	},	
+	{
+		"name": "Foreign Bonus",
+		"uniques": ["+20% bonus outside friendly territory"],
+		"unitTypes": ["Melee","waterMelee","Armor"]
+	}
 ]
