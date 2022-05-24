@@ -1,3 +1,3 @@
-# Unciv-mod-example
+# Alien Mod
 
 I got bored and did this
