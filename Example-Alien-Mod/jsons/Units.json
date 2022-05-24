@@ -11,7 +11,7 @@
 		"cost": 650,
 		"requiredTech": "Ballistics",
 		"requiredResource": "Uranium",
-		"uniques": ["+2 Visibility Range","May withdraw before melee [66]%"],
+		"uniques": ["+2 Sight","May withdraw before melee [66]%"],
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	},
@@ -132,7 +132,7 @@
 		"strength": 85,
 		"cost": 600,
 		"requiredTech": "Plastics",
-		"uniques": ["+1 Visibility Range","Bonus vs Ranged 25%"],
+		"uniques": ["+1 Sight","Bonus vs Ranged 25%"],
 		"promotions": ["Cover I","March","Quick Study","Woodsman"],
 		"attackSound": "nonMetalHit"
 	},
@@ -145,7 +145,7 @@
 		"strength": 110,
 		"cost": 2000,
 		"requiredTech": "Lasers",
-		"uniques": ["+1 Visibility Range","Bonus vs Mounted 33%","Bonus vs Melee 33%","Can move after attacking"],
+		"uniques": ["+1 Sight","Bonus vs Mounted 33%","Bonus vs Melee 33%","Can move after attacking"],
 		"promotions": ["Drill I","Drill II","March"],
 		"attackSound": "nonMetalHit"
 	}
